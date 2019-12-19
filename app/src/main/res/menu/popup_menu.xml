@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ashalagari.karnabanu.magicwand.MainActivity"
+    android:id="@+id/menu_popup"
+    >
+    <item
+        android:id="@+id/action_exit_popup"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+    />
+    <item android:id="@+id/action_disconnect"
+        android:title="Disconnect"
+        />
+</menu>
